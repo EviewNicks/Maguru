@@ -1,6 +1,8 @@
 import type { CustomFlowbiteTheme } from "flowbite-react";
+import {customThemeDarkCard, customThemeLightCard} from "../component/theme/CardTheme";
 
 export const lightTheme: CustomFlowbiteTheme = {
+  ...customThemeLightCard,
   button: {
     color: {
       primary: "bg-green-500 hover:bg-blue-600 text-white",
@@ -23,6 +25,7 @@ export const lightTheme: CustomFlowbiteTheme = {
 };
 
 export const darkTheme: CustomFlowbiteTheme = {
+  ...customThemeDarkCard,
   button: {
     color: {
       primary: "bg-gray-700 hover:bg-gray-800 text-white",
