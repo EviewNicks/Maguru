@@ -12,6 +12,10 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@fontsource/fira-code": "^5.1.0",
+    "@fontsource/inter": "^5.1.0",
+    "@fontsource/playfair-display": "^5.1.0",
+    "@heroicons/react": "^2.2.0",
     "axios": "^1.7.9",
     "bl": "^6.0.16",
     "flowbite-react": "^0.10.2",

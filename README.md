@@ -77,3 +77,7 @@ Isi:
 
 - Fungsi Pembantu: Fungsi untuk melakukan perhitungan, format tanggal, manipulasi string, validasi, dll.
 - Konfigurasi: Berisi konfigurasi umum seperti setup axios instance, helper untuk mengelola token, atau setup linting dan format.
+
+# 9 Config
+
+Konfigurasi utama untuk framwork tailwind css, di sini tempat untuk mengatur wanra, font, dan thema custom yang sesuai dengan kebutuhan project.
