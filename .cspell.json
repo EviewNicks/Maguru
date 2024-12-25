@@ -12,9 +12,15 @@
     ".cspell.json"
   ],
   "language": "en, id",
-  "files": ["src/**/*.js", "src/**/*.jsx"],
-  "ignoreRegExpList": [
-    "//.*",            
-    "/\\*[\\s\\S]*?\\*/" 
+  "files": [
+    "src/**/*.js",
+    "src/**/*.jsx"
   ],
+  "ignoreRegExpList": [
+    "//.*",
+    "/\\*[\\s\\S]*?\\*/"
+  ],
+  "words": [
+    "playfair"
+  ]
 }
