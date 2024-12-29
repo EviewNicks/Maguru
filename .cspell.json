@@ -14,7 +14,9 @@
   "language": "en, id",
   "files": [
     "src/**/*.js",
-    "src/**/*.jsx"
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ],
   "ignoreRegExpList": [
     "//.*",

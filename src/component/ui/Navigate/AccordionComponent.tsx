@@ -3,15 +3,16 @@
 import { Accordion } from "flowbite-react";
 import React from "react";
 
-export function ComponentNavbar() {
+export function AccordionComponent()
+{
   return (
-    <Accordion collapseAll>
+    <Accordion>
       <Accordion.Panel>
         <Accordion.Title>What is Flowbite?</Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">
             Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
-            dropdowns, modals, navbars, and more.
+            dropdowns, modals, navbar, and more.
           </p>
           <p className="text-gray-500 dark:text-gray-400">
             Check out this guide to learn how to&nbsp;
